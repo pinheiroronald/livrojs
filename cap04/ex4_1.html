@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Programa Situação do Sluno</h1>
+    <form>
+        <p>
+            <label for="inNome">Nome do aluno:</label>
+            <input type="text" name="nome" id="inNome" required autofocus>
+        </p>
+        <p>
+            <label for="inNota1">1º Nota:</label>
+            <input type="number" name="nota1" id="inNota1" step="0.1" required min="0" max="10" style="margin-bottom: 20px;"><br>
+
+            <label for="inNota2">2º Nota: </label>
+            <input type="number" name="nota2" id="inNota2" step="0.1" required min="0" max="10">
+        </p>
+        <input type="submit" value="Exibir Média e Situação">
+        <input type="reset" value="limpar">
+    </form>
+    <h3 id="res1"></h3>
+    <h3 id="res2"></h3>
+    <script src="js/ex4_1.js"></script>
+</body>
+</html>
