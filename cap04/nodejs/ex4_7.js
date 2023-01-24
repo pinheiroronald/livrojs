@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")()//Adicionaa o pacote prompt-sync
 
 const pessoa = Number(prompt("Nº  Pessoa: "))
-const peixe = Number(prompt("Nº Peixe"))
+const peixe = Number(prompt("Nº Peixe: "))
 
 let pagar
 
