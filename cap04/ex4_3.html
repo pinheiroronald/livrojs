@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 4.3</title>
+</head>
+<body>
+    <script>
+        const bairro = prompt("Bairro De Entrega: ")
+        let taxaEntrega
+
+        switch(bairro){
+            case "outeiro":
+            taxaEntrega = "5.00"
+                break
+            case "itaiteua":
+            case "strada da fabi":
+            taxaEntrega = "7.00"
+                break
+            case "brasilia":
+            case "agua cristalina":
+            taxaEntrega = "8.00"  
+                break
+            case "fama": 
+            taxaEntrega = "10.00"
+                break
+            default:
+            taxaEntrega="8.00"
+        }
+       alert(`${bairro} Taxa de entrega R$: ${Number(taxaEntrega).toFixed(2)}`)
+    </script>
+</body>
+</html>
